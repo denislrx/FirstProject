@@ -1,8 +1,16 @@
 <h1>Voiture</h1>
-<input type = "text" [(ngModel)]="nomVoiture">{{nomVoiture}}
-<button [disabled]="isDisabled" (click)="afficherAlert()">Ajouter une voiture</button>
-<span>{{addText}}</span>
-<div class = "div-voiture"></div>
-<div class = "div-voiture"></div>
-<div class = "div-voiture"></div>
-<div class = "div-voiture"></div>
+<input type="text" [(ngModel)]="nomVoiture" />{{ nomVoiture }}
+<br />
+<button
+  [disabled]="isDisabled"
+  (click)="afficherAlert()"
+  class="btn btn-primary"
+>
+  Ajouter une voiture
+</button>
+<br />
+<span>{{ addText }}</span>
+<div class="div-voiture"></div>
+<div class="div-voiture"></div>
+<div class="div-voiture"></div>
+<div class="div-voiture"></div>
